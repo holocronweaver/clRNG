@@ -47,7 +47,7 @@
 
 #define __CLRNG_DEVICE_API
 
-typedef double cl_double;
+// typedef double cl_double;
 typedef float  cl_float;
 typedef int    cl_int;
 typedef uint   cl_uint;
@@ -74,7 +74,7 @@ typedef enum clrngStatus_ {
 /*! This macro does nothing.
  *  It is defined for convenience when adapting host code for the device.
  */
-#define clrngSetErrorString(err, ...) (err)
+// #define clrngSetErrorString(err, ...) (err)
 
 
 #endif
